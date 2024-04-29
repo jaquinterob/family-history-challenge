@@ -8,7 +8,7 @@ export default function Home() {
       <button
         onClick={() => {
           fetch(`${BASE_URL}/competitor`)
-            .then((response) => response.text())
+            .then((response) => response.json())
             .then((data) => console.log(data));
         }}
       >
