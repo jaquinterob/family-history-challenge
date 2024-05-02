@@ -2,7 +2,7 @@ pipeline {
   agent any
   
   environment {
-    PORT = '5001' 
+    PORT = '10001' 
     IMAGE_NAME = 'family_history_challenge_image-monorepo' 
     APP_NAME = 'FAMILY_HISTORY_CHALLENGE'
   }
